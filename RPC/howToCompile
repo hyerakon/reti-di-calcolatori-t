@@ -1,0 +1,3 @@
+rcpgen *nomeXfile*
+gcc *nomeServer.c* *nomeXfile_svc* *nomexfile_xdr* -o *nomeserver.exe*
+gcc *nomeclient.c* *nomeXfile_clnt* *nomexfile_xdr* -o *nomeclient.exe*
