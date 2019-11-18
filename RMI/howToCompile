@@ -1,0 +1,5 @@
+javac *.java
+rmic -vcompat *nomeserver*
+rmiregistry
+java *nomeserver*
+java *nomelient* localhost 
